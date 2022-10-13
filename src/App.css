@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
+body {
+  background: #f6f7f7;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 15px;
+  background: #d8eef8;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-family: 'PT Serif Caption', serif;
 }
+.name {
+  font-size: 30px;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'PT Serif Caption', serif;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.change {
+  font-size: 20px;
+  padding: 20px;
+  border: none;
+  margin: 20px 10px 0px;
+  font-family: 'PT Serif Caption', serif;
+  background:none ;
+}
+.products {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 40px;
+  font-family: 'PT Serif Caption', serif;
+}
+.lessMore {
+  padding: 5px;
+  background-color: #d8eef8;
+  border: none;
+}
+.show {
+  width: 300px;
+  font-family: 'PT Serif Caption', serif;
+}
+.product-card {
+  display: inline-block; 
+  overflow: hidden;
+}
+.purchase {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.buy {
+  color: #09adf9;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  background: #f6f7f7;
+  text-decoration: underline;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.hover-image-scale {
+  transition: 1s;
+  display: block;
+}
+.hover-image-scale:hover {
+  transform: scale(1.2);
+} 
+h3 {
+  margin-top: 25px;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.box {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
+  text-align: justify;
+  text-indent: 40px;
+  font-family: 'PT Serif Caption', serif;
+}
+.text {
+  width: 50%;
+  text-align: justify;
+  text-indent: 40px;
+  margin-top: 40px;
+  font-family: 'PT Serif Caption', serif;
+}
+.imgTwo {
+  margin-top: 40px;
+}
+.imgFour {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.delivery {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.rotate {
+  margin-top: 30px;
+  width: 400px;
+  height: 500px;
+  border: 4px double #65c8f7;
+  overflow: hidden;
+  -webkit-transition: all 0.7s ease;
+          transition: all 0.7s ease;
+} 
+.rotate:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.fon {
+  display: flex;
+  flex-direction: column;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.imgFive {
+  margin-top: 20px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media all and(max-width: 500px) {
+  .imgOne, .imgFive, .imgTwo {
+    width: 250px;
   }
 }

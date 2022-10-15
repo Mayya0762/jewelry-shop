@@ -1,4 +1,5 @@
 import image from './five.png';
+import  'bootstrap/dist/css/bootstrap.min.css';
 function ContactUs() {
     return(
         <div className='contact'>

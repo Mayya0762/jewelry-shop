@@ -7,8 +7,7 @@ function ContactUs() {
         <h1>Контакты</h1>
         <h2>Телефон</h2>
         <p>+7 995 490 22 85</p>
-        <h2>Почта</h2>
-        <a href="mailto:olafajewelry@gmail.com">olafajewelry@gmail.com</a>
+        
         <h2>Соцсети</h2>
         <div className='icons'>
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">

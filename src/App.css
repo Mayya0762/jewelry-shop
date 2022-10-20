@@ -146,7 +146,7 @@ h3 {
   justify-content: space-between;
 }
 
-@media all and(max-width: 500px) {
+@media all and (max-width: 500px) {
   .imgOne, .imgFive, .imgTwo {
     width: 250px;
   }

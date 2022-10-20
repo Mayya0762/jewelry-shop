@@ -64,7 +64,7 @@ nav {
 }
 .buy {
   color: #09adf9;
-  padding: 20px;
+  
   font-size: 20px;
   border: none;
   background: #f6f7f7;
@@ -78,7 +78,7 @@ nav {
 .hover-image-scale:hover {
   transform: scale(1.2);
 } 
-h3 {
+.info {
   margin-top: 25px;
 }
 .header {

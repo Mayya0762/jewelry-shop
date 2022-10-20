@@ -17,10 +17,10 @@ function Jewelry({anyJewelry}) {
             
             <img className="hover-image-scale" src={image} width="300px" height="300px" alt="foto" />
             
-            <div>
-            <h3>{name}</h3>
+            <div className="info">
+            <h5>{name}</h5>
             <div className='purchase'>
-            <h4>Цена: {price} руб.</h4>
+            <h6>Цена: {price} руб.</h6>
             <button className='buy'>Купить</button>
             </div>
             <p className='show' >{showMore ? description : description.substring(0, 22) + "..."}

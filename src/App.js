@@ -15,14 +15,14 @@ import Olafa from './Olafa';
 function App() {
   return <Router>
     <nav>
-      <Link to="/olafa" className='name'>OLAFA</Link>
+      <Link to="/" className='name'>OLAFA</Link>
       <Link to="/shop" className='link'>КАТАЛОГ</Link>
       <Link to="/delivery" className='link'>ДОСТАВКА</Link>
       <Link to="/contactus" className='link'>КОНТАКТЫ</Link>
       
     </nav>
     <Routes>
-      <Route path="/olafa" element={<Olafa/>} />
+      <Route path="/" element={<Olafa/>} />
       <Route path="/delivery" element={<Delivery/>} />
       <Route path="/shop" element={<Shop/>} />
       <Route path="/contactus" element={<ContactUs/>} />
